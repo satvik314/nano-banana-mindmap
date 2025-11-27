@@ -189,9 +189,9 @@ with st.form("slide_generation_form"):
     with col1:
         num_slides = st.selectbox(
             "Number of Slides:",
-            [1, 2, 3],
+            [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
             index=2,
-            help="Choose how many slides to generate (max 3)"
+            help="Choose how many slides to generate (max 10)"
         )
         
         theme = st.selectbox(
