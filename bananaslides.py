@@ -166,7 +166,7 @@ with st.sidebar:
 
 # Main Content
 st.title("🍌 BananaSlides - AI Presentations")
-st.markdown("Transform your ideas into beautiful presentation slides using Google's Gemini AI")
+st.markdown("Transform your ideas into beautiful presentation slides using Nano Banana Pro")
 
 if not api_key:
     st.warning("⚠️ Please enter your Google API key in the sidebar to continue")
